@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+source 'https://github.com/Zhangguiguang/GGPodStudyPodSpecs.git'
+
+target 'CrustDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for CrustDemo
+  pod 'GGPodStudyModule2'
+
+  target 'CrustDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'CrustDemoUITests' do
+    # Pods for testing
+  end
+
+end
