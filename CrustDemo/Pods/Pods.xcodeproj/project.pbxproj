@@ -7,38 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		082AFB55D952C884CAEE29FF84C632E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		308644257F722E742ABF8A38B3864B8B /* GGTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C8135BFF5CD2042A2B4FC5C334B0E /* GGTestView.m */; };
 		30F06F31E6CD2F0DCB6BD2EEADE02FA5 /* Pods-CrustDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC208D15F0CBD42FC384260C8D9B63C /* Pods-CrustDemoTests-dummy.m */; };
-		488500B38C272540D5A4260C95613228 /* GGTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70671EA8F82DC75F538B3C327EA39EB /* GGTestView.m */; };
 		48EB4B846F7E889F3CCB4D5FA571A450 /* Pods-CrustDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1F83CDB00B67BA65679422F0316CA7D /* Pods-CrustDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C5AB252C20DB420ADE89EBF25C607FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		6667E6834B5AFC9B8A21CFF5689F09BE /* Pods-CrustDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A93C24D58376C759033556BD6BDBAABB /* Pods-CrustDemo-dummy.m */; };
+		6CC0B1E1A919069CD83CD140B113611C /* GGTestView.h in Headers */ = {isa = PBXBuildFile; fileRef = 74454969C1944C656E7804F9A3715088 /* GGTestView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		759B127A39C0D2C8E641508E86939D83 /* GGPodStudyModule2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6A34FF5C4D119CFE867B069B67ED799 /* GGPodStudyModule2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83B00C7A5FD70D2F1D4CAD8E91D9A7D5 /* GGPersonModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B4CED9250BD42383485823A78091E1C6 /* GGPersonModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85D60E1C9B060E7A0041161733EC5486 /* Pods-CrustDemo-CrustDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A8071CBB0033AA863080F70F365BE7 /* Pods-CrustDemo-CrustDemoUITests-dummy.m */; };
 		8EDB287F38EDE4DEC1E32FCF1B9D5057 /* Pods-CrustDemo-CrustDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 132F77928A7CB451B39D8BA9D0ABE3EC /* Pods-CrustDemo-CrustDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9961EC4D7600F487EBACFDF9F3BB6A5F /* GGPodStudyModule2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B72EB339272B1C80B614CA8DF29CE07E /* GGPodStudyModule2-dummy.m */; };
 		B24A2256A9BE9AB6AB7FAD0BD385D990 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B7316C44A65E40A78B385AEE8A90E928 /* GGPodStudyModule2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87401FA9F25641F28FD4CA3D80710C27 /* GGPodStudyModule2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C713E480CF28662EC765E21C87D654F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		DBBC239DB67B9215B1162DE3EC1AC315 /* GGPodStudyModule2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79388804F7A5175F41CDA7F8A0A9A462 /* GGPodStudyModule2-dummy.m */; };
-		E74277AFC1218B299788FDC2AF9A56BA /* GGTestView.h in Headers */ = {isa = PBXBuildFile; fileRef = 574579B3FBD3B3911977496061A4BE79 /* GGTestView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7836E3A3085DA2391AB3DCD5BAB298D /* GGPersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3C53D06DC47BD0A59003F031565476 /* GGPersonModel.m */; };
+		DC4A12C61D68CE3B3F30FB9D40B1558D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F3CB4094C3DC29F4D10B3EEFDA348FE5 /* Pods-CrustDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6796B61EEC3A03956ECEC8C0DA5F23E /* Pods-CrustDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B9A302958075B62B937453C2CD5899D6 /* PBXContainerItemProxy */ = {
+		6843239BEF3993C2D0082A00BCADB75F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9960FF15353093EF3FE3D9288ACC10ED;
 			remoteInfo = GGPodStudyModule2;
 		};
-		D40E47C70D294F0B1AFA886CB0D3D7AE /* PBXContainerItemProxy */ = {
+		DBC9EBF175B6E04CDE0D85410AA8C8FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E8FBDF16CEF00CB95210E81F381DAC36;
 			remoteInfo = "Pods-CrustDemo";
 		};
-		E3348BD6427F361EBAC0DE75BA0CF5B8 /* PBXContainerItemProxy */ = {
+		E959DC1A50293E8D7B1B87A4D33E2AB4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -50,43 +52,45 @@
 /* Begin PBXFileReference section */
 		03F98970B7EEB571AEB52E3D69DED4FA /* Pods-CrustDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrustDemoTests-Info.plist"; sourceTree = "<group>"; };
 		0683F913BFB652CFEFAF5AACF85AFF56 /* Pods-CrustDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CrustDemo-frameworks.sh"; sourceTree = "<group>"; };
-		073FB5A1F1F077D46BED667EC7661888 /* GGPodStudyModule2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GGPodStudyModule2-Info.plist"; sourceTree = "<group>"; };
-		0874BA561043448FDDEC7EC2CF29D725 /* GGPodStudyModule2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GGPodStudyModule2.modulemap; sourceTree = "<group>"; };
 		092B028E3589E1CDC900B99EE4D2F1F6 /* Pods-CrustDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CrustDemoTests.modulemap"; sourceTree = "<group>"; };
 		0C350E0BBF329F7CC27AB97DCF8C66D3 /* Pods-CrustDemo-CrustDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CrustDemo-CrustDemoUITests.modulemap"; sourceTree = "<group>"; };
 		132F77928A7CB451B39D8BA9D0ABE3EC /* Pods-CrustDemo-CrustDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CrustDemo-CrustDemoUITests-umbrella.h"; sourceTree = "<group>"; };
-		2BE838B6DC899530A7C5ADBA07FCBC63 /* GGPodStudyModule2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGPodStudyModule2.release.xcconfig; sourceTree = "<group>"; };
 		3E46C22FC63C86586B51863993F5D3BA /* Pods-CrustDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrustDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3EC208D15F0CBD42FC384260C8D9B63C /* Pods-CrustDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CrustDemoTests-dummy.m"; sourceTree = "<group>"; };
 		43EE4123BA3A81185FFD00CAEEA7B83A /* Pods-CrustDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrustDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		46AA1CACEE3CDDCE52C7CCF0D0D11E75 /* Pods-CrustDemo-CrustDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrustDemo-CrustDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		47456DCFE649C62A4E70BB31EB0EBAF1 /* Pods_CrustDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CrustDemo.framework; path = "Pods-CrustDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		487D0BC18EA47F7E1BEFA7FF2C5ACCD6 /* GGPodStudyModule2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGPodStudyModule2-prefix.pch"; sourceTree = "<group>"; };
 		48A8071CBB0033AA863080F70F365BE7 /* Pods-CrustDemo-CrustDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CrustDemo-CrustDemoUITests-dummy.m"; sourceTree = "<group>"; };
-		574579B3FBD3B3911977496061A4BE79 /* GGTestView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGTestView.h; path = GGPodStudyModule2/Classes/GGTestView.h; sourceTree = "<group>"; };
+		5A618C29A01B10D5A7457ABCDAFCADC8 /* GGPodStudyModule2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GGPodStudyModule2.modulemap; sourceTree = "<group>"; };
 		5C081E6FC2138A84959E8B66381A15D3 /* Pods-CrustDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CrustDemo.modulemap"; sourceTree = "<group>"; };
 		5D0DA5259A5C6AC39E93655B18ECBF5A /* Pods-CrustDemo-CrustDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrustDemo-CrustDemoUITests-Info.plist"; sourceTree = "<group>"; };
 		601A9A3F0974E00BA6DE220119E28E9D /* Pods-CrustDemo-CrustDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CrustDemo-CrustDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		69C2198D66BA90596228266C51D0B036 /* GGPodStudyModule2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGPodStudyModule2.debug.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74454969C1944C656E7804F9A3715088 /* GGTestView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGTestView.h; path = GGPodStudyModule2/Classes/GGTestView.h; sourceTree = "<group>"; };
 		7892630D129832411AC1302F6B2AFA81 /* Pods-CrustDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrustDemo-Info.plist"; sourceTree = "<group>"; };
-		79388804F7A5175F41CDA7F8A0A9A462 /* GGPodStudyModule2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGPodStudyModule2-dummy.m"; sourceTree = "<group>"; };
 		85199316158E3A762B3F7FBCEEF41DA1 /* Pods-CrustDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrustDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		85A6539657870467E6D9D9D3EAA9760B /* Pods-CrustDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrustDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		87401FA9F25641F28FD4CA3D80710C27 /* GGPodStudyModule2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGPodStudyModule2-umbrella.h"; sourceTree = "<group>"; };
+		949AD8FBB37CB3678537ADDC3E7A7AAF /* GGPodStudyModule2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGPodStudyModule2-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1D52EBA30F4881B34080A06B9E43C6F /* Pods-CrustDemo-CrustDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrustDemo-CrustDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A1EA3EDC991A4C53F1B03C20834057D2 /* Pods-CrustDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CrustDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A1F83CDB00B67BA65679422F0316CA7D /* Pods-CrustDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CrustDemo-umbrella.h"; sourceTree = "<group>"; };
+		A23205469682210A17D674A5FA2AA93C /* GGPodStudyModule2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GGPodStudyModule2-Info.plist"; sourceTree = "<group>"; };
 		A61C24C6796CA9FC020E5AFC8BDD29D9 /* Pods-CrustDemo-CrustDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrustDemo-CrustDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A93C24D58376C759033556BD6BDBAABB /* Pods-CrustDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CrustDemo-dummy.m"; sourceTree = "<group>"; };
+		AB3C53D06DC47BD0A59003F031565476 /* GGPersonModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGPersonModel.m; path = GGPodStudyModule2/Classes/GGPersonModel.m; sourceTree = "<group>"; };
+		B26C8135BFF5CD2042A2B4FC5C334B0E /* GGTestView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGTestView.m; path = GGPodStudyModule2/Classes/GGTestView.m; sourceTree = "<group>"; };
+		B4CED9250BD42383485823A78091E1C6 /* GGPersonModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGPersonModel.h; path = GGPodStudyModule2/Classes/GGPersonModel.h; sourceTree = "<group>"; };
+		B72EB339272B1C80B614CA8DF29CE07E /* GGPodStudyModule2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGPodStudyModule2-dummy.m"; sourceTree = "<group>"; };
 		B9CC8EE85BB8B980624838E29C57D3C0 /* Pods_CrustDemo_CrustDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CrustDemo_CrustDemoUITests.framework; path = "Pods-CrustDemo-CrustDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6EFA3BB24D6DB8E020D67B7E63D2EE6 /* Pods-CrustDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrustDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C9E1B41D198863D6CDEBD66D61669DA5 /* GGPodStudyModule2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGPodStudyModule2.release.xcconfig; sourceTree = "<group>"; };
 		CF560C4E9BBA18989F5DDE1DFD7CC9D8 /* Pods-CrustDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CrustDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D43FAB7456825618E77DEBF312813FAC /* GGPodStudyModule2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GGPodStudyModule2.framework; path = GGPodStudyModule2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6796B61EEC3A03956ECEC8C0DA5F23E /* Pods-CrustDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CrustDemoTests-umbrella.h"; sourceTree = "<group>"; };
-		D70671EA8F82DC75F538B3C327EA39EB /* GGTestView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGTestView.m; path = GGPodStudyModule2/Classes/GGTestView.m; sourceTree = "<group>"; };
 		D711C0972397CE5FC100BD2789788141 /* Pods-CrustDemo-CrustDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CrustDemo-CrustDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E506B64B4C0F6B65D413C526A9BC3572 /* GGPodStudyModule2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGPodStudyModule2.debug.xcconfig; sourceTree = "<group>"; };
+		E6A34FF5C4D119CFE867B069B67ED799 /* GGPodStudyModule2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGPodStudyModule2-umbrella.h"; sourceTree = "<group>"; };
 		F9FA798EE95202CA315A198E131720DF /* Pods-CrustDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrustDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FAA7E7EB93D83A7944C2CABBCA3F4E22 /* Pods_CrustDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CrustDemoTests.framework; path = "Pods-CrustDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -116,34 +120,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE94BF6C78C0FC8D2FD56665825A8307 /* Frameworks */ = {
+		F3E519DD5F536A6D526C232C26B21B99 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				082AFB55D952C884CAEE29FF84C632E0 /* Foundation.framework in Frameworks */,
+				DC4A12C61D68CE3B3F30FB9D40B1558D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18FA1CEA0429DCF4D1DA2814B2B1C61A /* Pods */ = {
+		18163BBC4E639C3F276C01995AFF2EAE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4F5F9FA582726D2703018545509858CC /* GGPodStudyModule2 */,
+				5A618C29A01B10D5A7457ABCDAFCADC8 /* GGPodStudyModule2.modulemap */,
+				B72EB339272B1C80B614CA8DF29CE07E /* GGPodStudyModule2-dummy.m */,
+				A23205469682210A17D674A5FA2AA93C /* GGPodStudyModule2-Info.plist */,
+				949AD8FBB37CB3678537ADDC3E7A7AAF /* GGPodStudyModule2-prefix.pch */,
+				E6A34FF5C4D119CFE867B069B67ED799 /* GGPodStudyModule2-umbrella.h */,
+				E506B64B4C0F6B65D413C526A9BC3572 /* GGPodStudyModule2.debug.xcconfig */,
+				C9E1B41D198863D6CDEBD66D61669DA5 /* GGPodStudyModule2.release.xcconfig */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		4F5F9FA582726D2703018545509858CC /* GGPodStudyModule2 */ = {
-			isa = PBXGroup;
-			children = (
-				574579B3FBD3B3911977496061A4BE79 /* GGTestView.h */,
-				D70671EA8F82DC75F538B3C327EA39EB /* GGTestView.m */,
-				75739E1F05872AF5FA9CEE91D9478913 /* Support Files */,
-			);
-			name = GGPodStudyModule2;
-			path = GGPodStudyModule2;
+			name = "Support Files";
+			path = "../Target Support Files/GGPodStudyModule2";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -154,19 +154,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		75739E1F05872AF5FA9CEE91D9478913 /* Support Files */ = {
+		6379711D4245DBAC309525E1A58555F2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0874BA561043448FDDEC7EC2CF29D725 /* GGPodStudyModule2.modulemap */,
-				79388804F7A5175F41CDA7F8A0A9A462 /* GGPodStudyModule2-dummy.m */,
-				073FB5A1F1F077D46BED667EC7661888 /* GGPodStudyModule2-Info.plist */,
-				487D0BC18EA47F7E1BEFA7FF2C5ACCD6 /* GGPodStudyModule2-prefix.pch */,
-				87401FA9F25641F28FD4CA3D80710C27 /* GGPodStudyModule2-umbrella.h */,
-				69C2198D66BA90596228266C51D0B036 /* GGPodStudyModule2.debug.xcconfig */,
-				2BE838B6DC899530A7C5ADBA07FCBC63 /* GGPodStudyModule2.release.xcconfig */,
+				CA0CB0DB805ABF5ED98E5A0E0D2B06F2 /* GGPodStudyModule2 */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/GGPodStudyModule2";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		76B0F0F1D89FA86166BEE35335C1B9D2 /* Pods-CrustDemo-CrustDemoUITests */ = {
@@ -223,12 +216,25 @@
 			path = "Target Support Files/Pods-CrustDemoTests";
 			sourceTree = "<group>";
 		};
+		CA0CB0DB805ABF5ED98E5A0E0D2B06F2 /* GGPodStudyModule2 */ = {
+			isa = PBXGroup;
+			children = (
+				B4CED9250BD42383485823A78091E1C6 /* GGPersonModel.h */,
+				AB3C53D06DC47BD0A59003F031565476 /* GGPersonModel.m */,
+				74454969C1944C656E7804F9A3715088 /* GGTestView.h */,
+				B26C8135BFF5CD2042A2B4FC5C334B0E /* GGTestView.m */,
+				18163BBC4E639C3F276C01995AFF2EAE /* Support Files */,
+			);
+			name = GGPodStudyModule2;
+			path = GGPodStudyModule2;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				18FA1CEA0429DCF4D1DA2814B2B1C61A /* Pods */,
+				6379711D4245DBAC309525E1A58555F2 /* Pods */,
 				95F1D5A3CCFB539176F738756E1922E0 /* Products */,
 				A457CC414A14E86DF4BBBC2A9569F8B4 /* Targets Support Files */,
 			);
@@ -262,15 +268,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		31D00ACD909169EFC32AC241CDAE2D10 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B7316C44A65E40A78B385AEE8A90E928 /* GGPodStudyModule2-umbrella.h in Headers */,
-				E74277AFC1218B299788FDC2AF9A56BA /* GGTestView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		63A2A2F1A2D75B97A1B46C43B09E2596 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -295,17 +292,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DDC043C445207D1AC477D2A55574305D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B00C7A5FD70D2F1D4CAD8E91D9A7D5 /* GGPersonModel.h in Headers */,
+				759B127A39C0D2C8E641508E86939D83 /* GGPodStudyModule2-umbrella.h in Headers */,
+				6CC0B1E1A919069CD83CD140B113611C /* GGTestView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		9960FF15353093EF3FE3D9288ACC10ED /* GGPodStudyModule2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 479A8652E67BB36318154C96DEECA1AE /* Build configuration list for PBXNativeTarget "GGPodStudyModule2" */;
+			buildConfigurationList = 7DF9F59D6581050A12FAAECDACD0E664 /* Build configuration list for PBXNativeTarget "GGPodStudyModule2" */;
 			buildPhases = (
-				31D00ACD909169EFC32AC241CDAE2D10 /* Headers */,
-				EB231D5265B83218F467B0DE8B930441 /* Sources */,
-				DE94BF6C78C0FC8D2FD56665825A8307 /* Frameworks */,
-				4CEEA1CECD693DF48C2169141D0F366E /* Resources */,
+				DDC043C445207D1AC477D2A55574305D /* Headers */,
+				D2AA3760E0AE2155BDFB81FF2B1AF73F /* Sources */,
+				F3E519DD5F536A6D526C232C26B21B99 /* Frameworks */,
+				8359AF40EFFEE54322F9B84888E9619F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -328,7 +335,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				13A6D8D0780F0E584ABD5C9CA730B565 /* PBXTargetDependency */,
+				E405E5E564A9963D684A8C2957D2BAF1 /* PBXTargetDependency */,
 			);
 			name = "Pods-CrustDemo-CrustDemoUITests";
 			productName = "Pods-CrustDemo-CrustDemoUITests";
@@ -347,7 +354,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A57F3597B42A071AF37D1B80436A4C53 /* PBXTargetDependency */,
+				6F164E566968C440C890710465EBDF5B /* PBXTargetDependency */,
 			);
 			name = "Pods-CrustDemoTests";
 			productName = "Pods-CrustDemoTests";
@@ -366,7 +373,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				31C67B700983F59072F582D360D92320 /* PBXTargetDependency */,
+				4C515B33F5E26A673E10D4511AF28520 /* PBXTargetDependency */,
 			);
 			name = "Pods-CrustDemo";
 			productName = "Pods-CrustDemo";
@@ -418,7 +425,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CEEA1CECD693DF48C2169141D0F366E /* Resources */ = {
+		8359AF40EFFEE54322F9B84888E9619F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -451,12 +458,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB231D5265B83218F467B0DE8B930441 /* Sources */ = {
+		D2AA3760E0AE2155BDFB81FF2B1AF73F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBBC239DB67B9215B1162DE3EC1AC315 /* GGPodStudyModule2-dummy.m in Sources */,
-				488500B38C272540D5A4260C95613228 /* GGTestView.m in Sources */,
+				D7836E3A3085DA2391AB3DCD5BAB298D /* GGPersonModel.m in Sources */,
+				9961EC4D7600F487EBACFDF9F3BB6A5F /* GGPodStudyModule2-dummy.m in Sources */,
+				308644257F722E742ABF8A38B3864B8B /* GGTestView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,60 +479,27 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		13A6D8D0780F0E584ABD5C9CA730B565 /* PBXTargetDependency */ = {
+		4C515B33F5E26A673E10D4511AF28520 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GGPodStudyModule2;
 			target = 9960FF15353093EF3FE3D9288ACC10ED /* GGPodStudyModule2 */;
-			targetProxy = B9A302958075B62B937453C2CD5899D6 /* PBXContainerItemProxy */;
+			targetProxy = E959DC1A50293E8D7B1B87A4D33E2AB4 /* PBXContainerItemProxy */;
 		};
-		31C67B700983F59072F582D360D92320 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GGPodStudyModule2;
-			target = 9960FF15353093EF3FE3D9288ACC10ED /* GGPodStudyModule2 */;
-			targetProxy = E3348BD6427F361EBAC0DE75BA0CF5B8 /* PBXContainerItemProxy */;
-		};
-		A57F3597B42A071AF37D1B80436A4C53 /* PBXTargetDependency */ = {
+		6F164E566968C440C890710465EBDF5B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CrustDemo";
 			target = E8FBDF16CEF00CB95210E81F381DAC36 /* Pods-CrustDemo */;
-			targetProxy = D40E47C70D294F0B1AFA886CB0D3D7AE /* PBXContainerItemProxy */;
+			targetProxy = DBC9EBF175B6E04CDE0D85410AA8C8FE /* PBXContainerItemProxy */;
+		};
+		E405E5E564A9963D684A8C2957D2BAF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GGPodStudyModule2;
+			target = 9960FF15353093EF3FE3D9288ACC10ED /* GGPodStudyModule2 */;
+			targetProxy = 6843239BEF3993C2D0082A00BCADB75F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1372FB106D7CE39405EB77AD1110805F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69C2198D66BA90596228266C51D0B036 /* GGPodStudyModule2.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GGPodStudyModule2/GGPodStudyModule2-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GGPodStudyModule2/GGPodStudyModule2-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/GGPodStudyModule2/GGPodStudyModule2.modulemap";
-				PRODUCT_MODULE_NAME = GGPodStudyModule2;
-				PRODUCT_NAME = GGPodStudyModule2;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		2CBE8E5BCAF884C768F6A1DBC65BBE72 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 85199316158E3A762B3F7FBCEEF41DA1 /* Pods-CrustDemoTests.release.xcconfig */;
@@ -689,40 +664,6 @@
 			};
 			name = Release;
 		};
-		483EC1E5FBCC65BA624714267B3E560E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BE838B6DC899530A7C5ADBA07FCBC63 /* GGPodStudyModule2.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GGPodStudyModule2/GGPodStudyModule2-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GGPodStudyModule2/GGPodStudyModule2-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/GGPodStudyModule2/GGPodStudyModule2.modulemap";
-				PRODUCT_MODULE_NAME = GGPodStudyModule2;
-				PRODUCT_NAME = GGPodStudyModule2;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		67440EC2F131ADFFC63D0ED659599388 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A1D52EBA30F4881B34080A06B9E43C6F /* Pods-CrustDemo-CrustDemoUITests.debug.xcconfig */;
@@ -797,6 +738,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		982C42957540EC4660EC105F574877D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E506B64B4C0F6B65D413C526A9BC3572 /* GGPodStudyModule2.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GGPodStudyModule2/GGPodStudyModule2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GGPodStudyModule2/GGPodStudyModule2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GGPodStudyModule2/GGPodStudyModule2.modulemap";
+				PRODUCT_MODULE_NAME = GGPodStudyModule2;
+				PRODUCT_NAME = GGPodStudyModule2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		A1D2B252BB95C082E42BE96157317D7D /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -873,6 +847,40 @@
 			};
 			name = Debug;
 		};
+		DB51B0043DDA5BFFCDE86A0413379304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9E1B41D198863D6CDEBD66D61669DA5 /* GGPodStudyModule2.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GGPodStudyModule2/GGPodStudyModule2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GGPodStudyModule2/GGPodStudyModule2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GGPodStudyModule2/GGPodStudyModule2.modulemap";
+				PRODUCT_MODULE_NAME = GGPodStudyModule2;
+				PRODUCT_NAME = GGPodStudyModule2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E04F6269C06F38E5C848A05650A30049 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F9FA798EE95202CA315A198E131720DF /* Pods-CrustDemo.debug.xcconfig */;
@@ -922,15 +930,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		479A8652E67BB36318154C96DEECA1AE /* Build configuration list for PBXNativeTarget "GGPodStudyModule2" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1372FB106D7CE39405EB77AD1110805F /* Debug */,
-				483EC1E5FBCC65BA624714267B3E560E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -945,6 +944,15 @@
 			buildConfigurations = (
 				67440EC2F131ADFFC63D0ED659599388 /* Debug */,
 				81603A356AE6FE93F4C45E225D12221E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DF9F59D6581050A12FAAECDACD0E664 /* Build configuration list for PBXNativeTarget "GGPodStudyModule2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				982C42957540EC4660EC105F574877D2 /* Debug */,
+				DB51B0043DDA5BFFCDE86A0413379304 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

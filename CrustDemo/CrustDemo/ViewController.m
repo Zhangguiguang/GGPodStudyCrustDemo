@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import <GGTestView.h>
+#import <GGPersonModel.h>
 
 @interface ViewController ()
 
@@ -19,8 +20,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    GGPersonModel *model = [GGPersonModel new];
+    model.name = @"jdJSIa";
+    model.age = 23;
+    
     GGTestView *test = [GGTestView new];
-    test.des = @"JSIOAS";
+    test.des = model.name;
+    test.backgroundColor = [UIColor greenColor];
+    test.textColor = UIColor.whiteColor;
     
     test.frame = CGRectMake(100, 100, 120, 50);
     [self.view addSubview:test];

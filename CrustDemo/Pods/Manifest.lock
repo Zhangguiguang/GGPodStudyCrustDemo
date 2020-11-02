@@ -1,5 +1,5 @@
 PODS:
-  - GGPodStudyModule2 (0.0.1)
+  - GGPodStudyModule2 (0.0.3)
 
 DEPENDENCIES:
   - GGPodStudyModule2
@@ -9,7 +9,7 @@ SPEC REPOS:
     - GGPodStudyModule2
 
 SPEC CHECKSUMS:
-  GGPodStudyModule2: 4f65d007676639c3e6ed3a3df65f534d7c1b5fcf
+  GGPodStudyModule2: e4911ec5cd8e1343a45e3b50b154bc12d6aab66d
 
 PODFILE CHECKSUM: 0f3f2d4c84c7219fe0ba24e6d643d285b54b0c65
 
