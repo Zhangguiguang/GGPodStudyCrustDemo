@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86713EF7B88AD78BDB725FA5 /* Pods_CrustDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C543A5056C73F656E45835 /* Pods_CrustDemoTests.framework */; };
 		95D1DBF4254FA651006A9238 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D1DBF3254FA651006A9238 /* AppDelegate.m */; };
 		95D1DBF7254FA651006A9238 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D1DBF6254FA651006A9238 /* SceneDelegate.m */; };
 		95D1DBFA254FA651006A9238 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D1DBF9254FA651006A9238 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 		95D1DC05254FA656006A9238 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D1DC04254FA656006A9238 /* main.m */; };
 		95D1DC0F254FA656006A9238 /* CrustDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D1DC0E254FA656006A9238 /* CrustDemoTests.m */; };
 		95D1DC1A254FA656006A9238 /* CrustDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D1DC19254FA656006A9238 /* CrustDemoUITests.m */; };
+		BE9A852C41BFDDFAA02CB467 /* Pods_CrustDemo_CrustDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401418436B0A39CAC50E6D5C /* Pods_CrustDemo_CrustDemoUITests.framework */; };
+		FDB5C94DF6B9FAD044E9F387 /* Pods_CrustDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1897ACC7F090E87243022596 /* Pods_CrustDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		059FDDAF28BF518DFAE45F91 /* Pods-CrustDemo-CrustDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrustDemo-CrustDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-CrustDemo-CrustDemoUITests/Pods-CrustDemo-CrustDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		06C5A0613696477CFB810656 /* Pods-CrustDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrustDemo.debug.xcconfig"; path = "Target Support Files/Pods-CrustDemo/Pods-CrustDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1897ACC7F090E87243022596 /* Pods_CrustDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrustDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		401418436B0A39CAC50E6D5C /* Pods_CrustDemo_CrustDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrustDemo_CrustDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		567A5C80F423DBE9CEE17242 /* Pods-CrustDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrustDemo.release.xcconfig"; path = "Target Support Files/Pods-CrustDemo/Pods-CrustDemo.release.xcconfig"; sourceTree = "<group>"; };
 		95D1DBEF254FA651006A9238 /* CrustDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrustDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D1DBF2254FA651006A9238 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		95D1DBF3254FA651006A9238 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +62,10 @@
 		95D1DC15254FA656006A9238 /* CrustDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrustDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D1DC19254FA656006A9238 /* CrustDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrustDemoUITests.m; sourceTree = "<group>"; };
 		95D1DC1B254FA656006A9238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25ADBD8EA9904632F64987C /* Pods-CrustDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrustDemoTests.release.xcconfig"; path = "Target Support Files/Pods-CrustDemoTests/Pods-CrustDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		E3A004FE0C38CE43FADA86E8 /* Pods-CrustDemo-CrustDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrustDemo-CrustDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-CrustDemo-CrustDemoUITests/Pods-CrustDemo-CrustDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EE9AD83D2276F4749FFCB93C /* Pods-CrustDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrustDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-CrustDemoTests/Pods-CrustDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9C543A5056C73F656E45835 /* Pods_CrustDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrustDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDB5C94DF6B9FAD044E9F387 /* Pods_CrustDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86713EF7B88AD78BDB725FA5 /* Pods_CrustDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +89,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE9A852C41BFDDFAA02CB467 /* Pods_CrustDemo_CrustDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		296AFEE81E7009812AD6D853 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06C5A0613696477CFB810656 /* Pods-CrustDemo.debug.xcconfig */,
+				567A5C80F423DBE9CEE17242 /* Pods-CrustDemo.release.xcconfig */,
+				059FDDAF28BF518DFAE45F91 /* Pods-CrustDemo-CrustDemoUITests.debug.xcconfig */,
+				E3A004FE0C38CE43FADA86E8 /* Pods-CrustDemo-CrustDemoUITests.release.xcconfig */,
+				EE9AD83D2276F4749FFCB93C /* Pods-CrustDemoTests.debug.xcconfig */,
+				E25ADBD8EA9904632F64987C /* Pods-CrustDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8B15428C41FBEBC8C8367F5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1897ACC7F090E87243022596 /* Pods_CrustDemo.framework */,
+				401418436B0A39CAC50E6D5C /* Pods_CrustDemo_CrustDemoUITests.framework */,
+				F9C543A5056C73F656E45835 /* Pods_CrustDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		95D1DBE6254FA651006A9238 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +127,8 @@
 				95D1DC0D254FA656006A9238 /* CrustDemoTests */,
 				95D1DC18254FA656006A9238 /* CrustDemoUITests */,
 				95D1DBF0254FA651006A9238 /* Products */,
+				296AFEE81E7009812AD6D853 /* Pods */,
+				8B15428C41FBEBC8C8367F5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95D1DC1E254FA656006A9238 /* Build configuration list for PBXNativeTarget "CrustDemo" */;
 			buildPhases = (
+				D484BD56E9CF64AAE7D791DE /* [CP] Check Pods Manifest.lock */,
 				95D1DBEB254FA651006A9238 /* Sources */,
 				95D1DBEC254FA651006A9238 /* Frameworks */,
 				95D1DBED254FA651006A9238 /* Resources */,
+				8192A53EE5E0371DBD98BBE2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95D1DC21254FA656006A9238 /* Build configuration list for PBXNativeTarget "CrustDemoTests" */;
 			buildPhases = (
+				E5E04C7B94375F7153363251 /* [CP] Check Pods Manifest.lock */,
 				95D1DC06254FA656006A9238 /* Sources */,
 				95D1DC07254FA656006A9238 /* Frameworks */,
 				95D1DC08254FA656006A9238 /* Resources */,
@@ -179,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95D1DC24254FA656006A9238 /* Build configuration list for PBXNativeTarget "CrustDemoUITests" */;
 			buildPhases = (
+				65A3AFA6FC74C1FA1F72CEE2 /* [CP] Check Pods Manifest.lock */,
 				95D1DC11254FA656006A9238 /* Sources */,
 				95D1DC12254FA656006A9238 /* Frameworks */,
 				95D1DC13254FA656006A9238 /* Resources */,
+				75F95F5AAEBF4C8019997379 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +307,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65A3AFA6FC74C1FA1F72CEE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrustDemo-CrustDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75F95F5AAEBF4C8019997379 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrustDemo-CrustDemoUITests/Pods-CrustDemo-CrustDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrustDemo-CrustDemoUITests/Pods-CrustDemo-CrustDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrustDemo-CrustDemoUITests/Pods-CrustDemo-CrustDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8192A53EE5E0371DBD98BBE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrustDemo/Pods-CrustDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrustDemo/Pods-CrustDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrustDemo/Pods-CrustDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D484BD56E9CF64AAE7D791DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrustDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5E04C7B94375F7153363251 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrustDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		95D1DBEB254FA651006A9238 /* Sources */ = {
@@ -437,6 +586,7 @@
 		};
 		95D1DC1F254FA656006A9238 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06C5A0613696477CFB810656 /* Pods-CrustDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +603,7 @@
 		};
 		95D1DC20254FA656006A9238 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 567A5C80F423DBE9CEE17242 /* Pods-CrustDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -469,6 +620,7 @@
 		};
 		95D1DC22254FA656006A9238 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE9AD83D2276F4749FFCB93C /* Pods-CrustDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -488,6 +640,7 @@
 		};
 		95D1DC23254FA656006A9238 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E25ADBD8EA9904632F64987C /* Pods-CrustDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -507,6 +660,7 @@
 		};
 		95D1DC25254FA656006A9238 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 059FDDAF28BF518DFAE45F91 /* Pods-CrustDemo-CrustDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CrustDemoUITests/Info.plist;
@@ -524,6 +678,7 @@
 		};
 		95D1DC26254FA656006A9238 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3A004FE0C38CE43FADA86E8 /* Pods-CrustDemo-CrustDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CrustDemoUITests/Info.plist;

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <GGTestView.h>
 
 @interface ViewController ()
 
@@ -17,6 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    GGTestView *test = [GGTestView new];
+    test.des = @"JSIOAS";
+    
+    test.frame = CGRectMake(100, 100, 120, 50);
+    [self.view addSubview:test];
 }
 
 
